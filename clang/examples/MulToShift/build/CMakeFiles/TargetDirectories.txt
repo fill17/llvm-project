@@ -1,0 +1,8 @@
+/home/vboxuser/MulToShift/build/CMakeFiles/intrinsics_gen.dir
+/home/vboxuser/MulToShift/build/CMakeFiles/omp_gen.dir
+/home/vboxuser/MulToShift/build/CMakeFiles/acc_gen.dir
+/home/vboxuser/MulToShift/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/vboxuser/MulToShift/build/CMakeFiles/clang-tablegen-targets.dir
+/home/vboxuser/MulToShift/build/CMakeFiles/MulToShift.dir
+/home/vboxuser/MulToShift/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/MulToShift/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+/home/vboxuser/VarRenamer/build/CMakeFiles/intrinsics_gen.dir
+/home/vboxuser/VarRenamer/build/CMakeFiles/omp_gen.dir
+/home/vboxuser/VarRenamer/build/CMakeFiles/acc_gen.dir
+/home/vboxuser/VarRenamer/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/vboxuser/VarRenamer/build/CMakeFiles/clang-tablegen-targets.dir
+/home/vboxuser/VarRenamer/build/CMakeFiles/VarRenamer.dir
+/home/vboxuser/VarRenamer/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/VarRenamer/build/CMakeFiles/rebuild_cache.dir

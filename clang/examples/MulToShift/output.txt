@@ -1,0 +1,50 @@
+// RUN: %MulToShift %s -- | %FileCheck %s
+
+int mul_by_2(int x) {
+  return (x << 1);
+}
+// CHECK: int mul_by_2(int x) {
+// CHECK-NEXT:   return (x << 1);
+// CHECK-NEXT: }
+
+int mul_by_8(int x) {
+  return (x << 3);
+}
+// CHECK: int mul_by_8(int x) {
+// CHECK-NEXT:   return (x << 3);
+// CHECK-NEXT: }
+
+int mul_by_3(int x) {
+  return x * 3;
+}
+// CHECK: int mul_by_3(int x) {
+// CHECK-NEXT:   return x * 3;
+// CHECK-NEXT: }
+
+int mul_by_neg(int x) {
+  return x * (-2);
+}
+// CHECK: int mul_by_neg(int x) {
+// CHECK-NEXT:   return x * (-2);
+// CHECK-NEXT: }
+
+int mul_const_left(int x) {
+  return (x << 2);
+}
+// CHECK: int mul_const_left(int x) {
+// CHECK-NEXT:   return (x << 2);
+// CHECK-NEXT: }
+
+unsigned mul_unsigned(unsigned x) {
+  return (x << 4);
+}
+// CHECK: unsigned mul_unsigned(unsigned x) {
+// CHECK-NEXT:   return (x << 4);
+// CHECK-NEXT: }
+
+int mul_both_const() {
+  return (4 << 3);
+}
+// CHECK: int mul_both_const() {
+// CHECK-NEXT:   return (8 << 2);
+// CHECK-NEXT: }
